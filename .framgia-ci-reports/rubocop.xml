@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='app/channels/application_cable/channel.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/channels/application_cable/connection.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/controllers/application_controller.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `class ApplicationController`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='3' column='17' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='app/controllers/microposts_controller.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `class MicropostsController`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='2' column='41' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='2' column='66' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='10' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='19' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='28' column='69' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='41' column='69' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='55' column='56' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='60' column='2' severity='info' message='Layout/EmptyLinesAroundAccessModifier: Keep a blank line before and after `private`.' source='com.puppycrawl.tools.checkstyle.Layout/EmptyLinesAroundAccessModifier'/>
+    <error line='62' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='62' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+    <error line='67' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='67' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+  </file>
+  <file name='app/controllers/static_pages_controller.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `class StaticPagesController`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='2' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='5' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='8' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+  </file>
+  <file name='app/controllers/users_controller.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `class UsersController`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='2' column='36' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='2' column='61' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='10' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='19' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='28' column='59' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='41' column='59' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='55' column='51' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='60' column='2' severity='info' message='Layout/EmptyLinesAroundAccessModifier: Keep a blank line before and after `private`.' source='com.puppycrawl.tools.checkstyle.Layout/EmptyLinesAroundAccessModifier'/>
+    <error line='62' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='62' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+    <error line='68' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='68' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+  </file>
+  <file name='app/helpers/application_helper.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `module ApplicationHelper`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/helpers/microposts_helper.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `module MicropostsHelper`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/helpers/static_pages_helper.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `module StaticPagesHelper`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/helpers/users_helper.rb'>
+    <error line='1' column='0' severity='info' message='Style/Documentation: Missing top-level documentation comment for `module UsersHelper`.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/jobs/application_job.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/mailers/application_mailer.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='2' column='16' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='3' column='9' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='app/models/application_record.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/models/micropost.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='3' column='30' severity='info' message='Layout/SpaceInsideHashLiteralBraces: Space inside { missing.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideHashLiteralBraces'/>
+    <error line='3' column='43' severity='info' message='Layout/SpaceInsideHashLiteralBraces: Space inside } missing.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideHashLiteralBraces'/>
+  </file>
+  <file name='app/models/user.rb'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/views/microposts/_micropost.json.jbuilder'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/views/microposts/index.json.jbuilder'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='1' column='34' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='app/views/microposts/show.json.jbuilder'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='1' column='14' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='app/views/users/_user.json.jbuilder'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+  </file>
+  <file name='app/views/users/index.json.jbuilder'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='1' column='29' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='app/views/users/show.json.jbuilder'>
+    <error line='1' column='0' severity='info' message='Style/FrozenStringLiteralComment: Missing frozen string literal comment.' source='com.puppycrawl.tools.checkstyle.Style/FrozenStringLiteralComment'/>
+    <error line='1' column='14' severity='info' message='Style/StringLiterals: Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+</checkstyle>
